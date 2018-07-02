@@ -77,6 +77,7 @@ PRODUCT_PACKAGES += \
     DCMO \
     DMService \
     DiagMon \
+    GCS \
     HotwordEnrollmentOKGoogleWCD9340 \
     HotwordEnrollmentTGoogleWCD9340 \
     HotwordEnrollmentXGoogleWCD9340 \
