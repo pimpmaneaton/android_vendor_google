@@ -88,7 +88,6 @@ PRODUCT_PACKAGES += \
     SSRestartDetector \
     SprintDM \
     SprintHM \
-    SetupWiz \
     TimeService \
     VzwOmaTrigger \
     WfcActivation \

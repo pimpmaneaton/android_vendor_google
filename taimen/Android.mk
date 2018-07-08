@@ -277,17 +277,6 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := SetupWiz
-LOCAL_MODULE_TAGS := optional
-LOCAL_SRC_FILES := proprietary/priv-app/SetupWizard/SetupWizard.apk
-LOCAL_CERTIFICATE := PRESIGNED
-LOCAL_MODULE_CLASS := APPS
-LOCAL_PRIVILEGED_MODULE := true
-LOCAL_OVERRIDES_PACKAGES := Provision
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := SSRestartDetector
 LOCAL_MODULE_OWNER := google
 LOCAL_SRC_FILES := proprietary/priv-app/SSRestartDetector/SSRestartDetector.apk
